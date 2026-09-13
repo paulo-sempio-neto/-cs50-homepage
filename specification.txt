@@ -1,0 +1,31 @@
+CS50x 2026 - Homepage
+
+10 tags HTML utilizadas:
+1. nav
+2. main
+3. section
+4. article
+5. h1
+6. h2
+7. p
+8. a
+9. ul
+10. li
+
+Propriedades CSS utilizadas:
+1. background-color
+2. color
+3. font-family
+4. padding
+5. margin
+6. border-radius
+7. box-shadow
+8. transition
+
+JavaScript:
+JavaScript foi utilizado para exibir mensagens interativas ao clicar nos botões
+e para mostrar automaticamente o ano atual no rodapé.
+
+Bootstrap:
+Bootstrap foi utilizado para criar a barra de navegação responsiva, os cartões,
+os botões, o sistema de colunas e os elementos visuais da página.

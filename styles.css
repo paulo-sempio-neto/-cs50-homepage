@@ -1,0 +1,102 @@
+:root {
+    --blue: #0ea5e9;
+    --dark: #07111c;
+    --light: #f4f7fb;
+    --text: #d9e4ee;
+}
+
+body {
+    background-color: var(--light);
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: var(--dark) !important;
+}
+
+.navbar-brand {
+    color: var(--blue) !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #07111c, #123653);
+    border-radius: 20px;
+    color: var(--text);
+    padding: 70px 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+}
+
+.hero h1 {
+    color: white;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.technology-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.technology-list span {
+    background-color: rgba(14, 165, 233, 0.15);
+    border: 1px solid var(--blue);
+    border-radius: 20px;
+    color: var(--blue);
+    padding: 7px 14px;
+}
+
+.feature-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+
+.page-heading {
+    margin-bottom: 20px;
+}
+
+.page-heading h1 {
+    color: #123653;
+    font-weight: bold;
+}
+
+.page-heading p {
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+.content-box {
+    background-color: white;
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.content-box h2 {
+    color: #123653;
+}
+
+.technology-items {
+    line-height: 2;
+}
+
+footer {
+    color: #6c757d;
+    margin-top: 30px;
+}
